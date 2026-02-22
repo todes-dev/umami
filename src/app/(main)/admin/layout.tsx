@@ -6,7 +6,7 @@ export default function ({ children }) {
     return null;
   }
 
-  return <AdminLayout>{children}</AdminLayout>;
+  return <AdminLayout>{children}</AdminLayout>; 
 }
 
 export const metadata: Metadata = {
